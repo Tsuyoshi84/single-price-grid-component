@@ -1,15 +1,15 @@
 <template>
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <Card />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import Card from './components/Card.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld,
+    Card,
   },
 });
 </script>
