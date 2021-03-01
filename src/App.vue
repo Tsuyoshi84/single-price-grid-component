@@ -15,6 +15,13 @@ export default defineComponent({
 </script>
 
 <style>
+:root {
+  --color-cyan: hsl(179, 62%, 43%);
+  --color-bright-yellow: hsl(71, 73%, 54%);
+  --color-light-gray: hsl(204, 43%, 93%);
+  --color-grayish-blue: hsl(218, 22%, 67%);
+}
+
 #app {
   font-family: 'Karla', sans-serif;
   -webkit-font-smoothing: antialiased;
