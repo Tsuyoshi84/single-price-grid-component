@@ -1,5 +1,7 @@
 # Frontend Mentor - Single Price Grid Component
 
+![Build and Deploy](https://github.com/Tsuyoshi84/single-price-grid-component/workflows/Build%20and%20Deploy/badge.svg)
+
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
