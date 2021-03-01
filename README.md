@@ -2,6 +2,8 @@
 
 ![Build and Deploy](https://github.com/Tsuyoshi84/single-price-grid-component/workflows/Build%20and%20Deploy/badge.svg)
 
+You can seet the site [here](https://tsuyoshi84.github.io/single-price-grid-component/).
+
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
