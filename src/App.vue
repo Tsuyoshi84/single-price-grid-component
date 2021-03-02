@@ -20,6 +20,7 @@ export default defineComponent({
   --color-bright-yellow: hsl(71, 73%, 54%);
   --color-light-gray: hsl(204, 43%, 93%);
   --color-grayish-blue: hsl(218, 22%, 67%);
+  --color-inverted-font: #fff;
 }
 
 #app {
