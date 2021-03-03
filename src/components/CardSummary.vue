@@ -20,6 +20,7 @@ export default defineComponent({
 .container {
   text-align: left;
   padding: var(--padding-block) var(--padding-inline);
+  border-radius: var(--border-radius);
 }
 
 .header {

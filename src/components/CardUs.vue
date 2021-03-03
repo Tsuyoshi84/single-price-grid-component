@@ -27,6 +27,7 @@ export default defineComponent({
   background-color: var(--color-light-cyan);
   text-align: left;
   padding: var(--padding-block) var(--padding-inline);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
 .title {

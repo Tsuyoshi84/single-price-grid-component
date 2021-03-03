@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="card-container">
     <card-summary />
     <card-price />
     <card-us />
@@ -18,4 +18,11 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.card-container {
+  width: 100%;
+  max-width: 634px;
+  box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.05);
+  border-radius: var(--border-radius);
+}
+</style>

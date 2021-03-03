@@ -1,6 +1,10 @@
 <template>
-  <Card />
-  <img src="./assets/desktop-design.jpg" alt="" />
+  <main>
+    <div class="card-wrapper">
+      <Card />
+    </div>
+    <img src="./assets/desktop-design.jpg" alt="" />
+  </main>
 </template>
 
 <script lang="ts">
@@ -25,6 +29,13 @@ export default defineComponent({
   --color-inverted-font: #fff;
   --padding-inline: 30px;
   --padding-block: 30px;
+  --border-radius: 8px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 #app {
@@ -34,5 +45,11 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
