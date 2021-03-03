@@ -19,15 +19,18 @@ export default defineComponent({
 <style scoped>
 .container {
   text-align: left;
+  padding: var(--padding-block) var(--padding-inline);
 }
 
 .header {
   color: var(--color-cyan);
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .detail {
   color: var(--color-bright-yellow);
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .sub-detail {

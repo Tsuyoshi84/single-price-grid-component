@@ -23,7 +23,7 @@ export default defineComponent({
   color: var(--color-inverted-font);
   text-align: left;
   background-color: var(--color-cyan);
-  padding: 20px 16px;
+  padding: var(--padding-block) var(--padding-inline);
 }
 .title {
   font-weight: 700;
