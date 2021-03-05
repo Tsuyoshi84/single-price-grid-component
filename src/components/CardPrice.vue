@@ -24,6 +24,7 @@ export default defineComponent({
   text-align: left;
   background-color: var(--color-cyan);
   padding: var(--padding-block) var(--padding-inline);
+  width: 100%;
 }
 .title {
   font-weight: 700;
@@ -45,5 +46,11 @@ export default defineComponent({
   border-radius: 4px;
   width: 100%;
   height: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    border-radius: 0 0 0 var(--border-radius);
+  }
 }
 </style>

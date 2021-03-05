@@ -28,6 +28,7 @@ export default defineComponent({
   text-align: left;
   padding: var(--padding-block) var(--padding-inline);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
+  width: 100%;
 }
 
 .title {
@@ -39,5 +40,11 @@ export default defineComponent({
   font-size: 14px;
   list-style-type: none;
   padding-inline-start: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    border-radius: 0 0 var(--border-radius) 0;
+  }
 }
 </style>
