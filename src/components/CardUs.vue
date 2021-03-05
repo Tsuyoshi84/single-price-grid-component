@@ -34,12 +34,17 @@ export default defineComponent({
 .title {
   font-size: 18px;
   font-weight: 700;
+  margin-block-end: 18px;
 }
 
 .why-us-list {
   font-size: 14px;
   list-style-type: none;
   padding-inline-start: 0;
+}
+
+.why-us-list > li {
+  margin-block-end: 4px;
 }
 
 @media only screen and (min-width: 600px) {

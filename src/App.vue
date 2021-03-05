@@ -3,7 +3,7 @@
     <div class="card-wrapper">
       <Card />
     </div>
-    <img src="./assets/desktop-design.jpg" alt="" />
+    <img src="./assets/mobile-design.jpg" alt="" />
   </main>
 </template>
 
@@ -27,9 +27,17 @@ export default defineComponent({
   --color-light-gray: hsl(204, 43%, 93%);
   --color-grayish-blue: hsl(218, 22%, 67%);
   --color-inverted-font: #fff;
-  --padding-inline: 30px;
-  --padding-block: 30px;
-  --border-radius: 8px;
+  --padding-inline: 22px;
+  --padding-block: 22px;
+  --border-radius: 4px;
+}
+
+@media only screen and (min-width: 600px) {
+  :root {
+    --padding-inline: 30px;
+    --padding-block: 30px;
+    --border-radius: 8px;
+  }
 }
 
 *,

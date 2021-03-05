@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="title">Monthly Subscription</div>
-    <div>
+    <div class="price-wrapper">
       <span class="price">$29</span>
       <span class="unit">per month</span>
     </div>
@@ -28,7 +28,13 @@ export default defineComponent({
 }
 .title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
+  margin-block-end: 18px;
+}
+.price-wrapper {
+  margin-block-end: 6px;
+  display: flex;
+  align-items: center;
 }
 .price {
   font-weight: 700;
@@ -36,6 +42,11 @@ export default defineComponent({
 }
 .unit {
   font-size: 14px;
+  margin-inline-start: 12px;
+  display: inline-block;
+}
+.info {
+  margin-block-end: 28px;
 }
 .sign-up-button {
   color: var(--color-inverted-font);
@@ -46,6 +57,7 @@ export default defineComponent({
   border-radius: 4px;
   width: 100%;
   height: 50px;
+  box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-width: 600px) {

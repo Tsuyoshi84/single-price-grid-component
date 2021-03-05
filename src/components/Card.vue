@@ -23,7 +23,7 @@ export default defineComponent({
 <style scoped>
 .card-container {
   width: 100%;
-  max-width: 375px;
+  max-width: 310px;
   box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.05);
   border-radius: var(--border-radius);
   margin: 0 16px;
