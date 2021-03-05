@@ -3,7 +3,6 @@
     <div class="card-wrapper">
       <Card />
     </div>
-    <img src="./assets/desktop-design.jpg" alt="" />
   </main>
 </template>
 
@@ -46,18 +45,22 @@ export default defineComponent({
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 #app {
   font-family: 'Karla', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 .card-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 </style>
