@@ -3,7 +3,7 @@
     <div class="card-wrapper">
       <Card />
     </div>
-    <img src="./assets/mobile-design.jpg" alt="" />
+    <img src="./assets/desktop-design.jpg" alt="" />
   </main>
 </template>
 
@@ -34,8 +34,8 @@ export default defineComponent({
 
 @media only screen and (min-width: 600px) {
   :root {
-    --padding-inline: 30px;
-    --padding-block: 30px;
+    --padding-inline: 38px;
+    --padding-block: 27px;
     --border-radius: 8px;
   }
 }

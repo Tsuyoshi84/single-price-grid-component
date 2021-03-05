@@ -40,6 +40,7 @@ export default defineComponent({
 
 @media only screen and (min-width: 600px) {
   .container {
+    font-size: 18px;
     border-radius: 0 0 0 var(--border-radius);
   }
 }
